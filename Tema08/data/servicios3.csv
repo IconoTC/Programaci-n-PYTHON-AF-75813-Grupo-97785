@@ -1,0 +1,7 @@
+servicio,puerto,estado
+ SSH , 22 , OK 
+ NGINX , 443 , ok 
+ api , 8080 , ERROR 
+ BACKUP ,no_numero, ERROR 
+ dns , 53 , OK 
+  postgresql  ,5432, ok

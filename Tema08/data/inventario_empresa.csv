@@ -1,0 +1,8 @@
+departamento,servidor,servicio,puerto,estado,criticidad
+Sistemas,srv-web-01, NGINX ,443,activo,alta
+Sistemas,srv-web-01,ssh,22,activo,media
+Datos,srv-db-01,POSTGRESQL,5432,activo,alta
+Soporte,srv-help-01,api,8080,detenido,media
+Sistemas,srv-bkp-01,backup,70000,activo,alta
+Redes,srv-dns-01,dns,53,activo,media
+Redes,srv-vpn-01,vpn,no_numero,activo,alta
