@@ -1,0 +1,35 @@
+INFORME DE INVENTARIO TI
+==========================
+Generado: 2026-05-22 06:22:16
+
+Total de equipos: 18
+
+Estados:
+  - AVISO: 4
+  - ERROR: 3
+  - OK: 11
+
+Entornos:
+  - dev: 1
+  - prod: 13
+  - soporte: 2
+  - test: 2
+
+Clasificaciones:
+  - CRITICO: 3
+  - NORMAL: 9
+  - REVISAR: 6
+
+Servicios únicos:
+  api, dns, firewalld, grafana, jenkins, nginx, postgresql, rdp, redis, rsync, rsyslog, ssh
+
+Equipos pendientes de revisión:
+  - srv-web-02 | prod | nginx:443 | REVISAR | sin incidencias de validación
+  - srv-db-01 | prod | postgresql:5432 | REVISAR | sin incidencias de validación
+  - srv-db-02 | prod | postgresql:5432 | CRITICO | sin incidencias de validación
+  - srv-monitor-01 | prod | grafana:3000 | REVISAR | sin incidencias de validación
+  - srv-api-02 | prod | api:8443 | CRITICO | sin incidencias de validación
+  - srv-test-db-01 | test | postgresql:5432 | REVISAR | sin incidencias de validación
+  - pc-soporte-02 | soporte | rdp:3389 | REVISAR | sin incidencias de validación
+  - srv-log-01 | prod | rsyslog:514 | REVISAR | sin incidencias de validación
+  - srv-legacy-01 | prod | ssh:22 | CRITICO | sin incidencias de validación

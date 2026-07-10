@@ -1,0 +1,42 @@
+{
+  "total_equipos": 18,
+  "estados": {
+    "OK": 11,
+    "AVISO": 4,
+    "ERROR": 3
+  },
+  "entornos": {
+    "prod": 13,
+    "test": 2,
+    "soporte": 2,
+    "dev": 1
+  },
+  "clasificaciones": {
+    "NORMAL": 9,
+    "REVISAR": 6,
+    "CRITICO": 3
+  },
+  "servicios_unicos": [
+    "api",
+    "dns",
+    "firewalld",
+    "grafana",
+    "jenkins",
+    "nginx",
+    "postgresql",
+    "rdp",
+    "redis",
+    "rsync",
+    "rsyslog",
+    "ssh"
+  ],
+  "responsables": [
+    "Equipo Datos",
+    "Equipo Desarrollo",
+    "Equipo Redes",
+    "Equipo Seguridad",
+    "Equipo Sistemas",
+    "Equipo Web",
+    "Mesa de Ayuda"
+  ]
+}

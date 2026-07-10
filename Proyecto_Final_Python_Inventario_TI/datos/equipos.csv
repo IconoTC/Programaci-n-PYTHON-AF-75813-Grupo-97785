@@ -1,0 +1,19 @@
+id,nombre,tipo,sistema,ip,servicio,puerto,estado,cpu,memoria,disco,entorno,responsable
+1,srv-web-01,servidor,Linux,10.10.1.10,nginx,443,OK,42,61,55,prod,Equipo Web
+2,srv-web-02,servidor,Linux,10.10.1.11,nginx,443,AVISO,76,69,72,prod,Equipo Web
+3,srv-db-01,servidor,Linux,10.10.2.20,postgresql,5432,OK,58,81,64,prod,Equipo Datos
+4,srv-db-02,servidor,Linux,10.10.2.21,postgresql,5432,ERROR,91,88,93,prod,Equipo Datos
+5,srv-backup-01,servidor,Linux,10.10.3.30,rsync,873,OK,35,48,79,prod,Equipo Sistemas
+6,fw-edge-01,firewall,Linux,10.10.0.1,firewalld,443,OK,64,52,41,prod,Equipo Seguridad
+7,srv-monitor-01,servidor,Linux,10.10.4.40,grafana,3000,AVISO,72,70,67,prod,Equipo Sistemas
+8,srv-api-01,servidor,Linux,10.10.5.50,api,8443,OK,45,57,38,prod,Equipo Desarrollo
+9,srv-api-02,servidor,Linux,10.10.5.51,api,8443,ERROR,84,90,81,prod,Equipo Desarrollo
+10,srv-dns-01,servidor,Linux,10.10.6.10,dns,53,OK,22,35,30,prod,Equipo Redes
+11,srv-test-01,servidor,Linux,10.20.1.10,nginx,8080,OK,48,44,37,test,Equipo Web
+12,srv-test-db-01,servidor,Linux,10.20.2.20,postgresql,5432,AVISO,69,74,66,test,Equipo Datos
+13,pc-soporte-01,estacion,Windows,10.30.1.15,rdp,3389,OK,33,59,49,soporte,Mesa de Ayuda
+14,pc-soporte-02,estacion,Windows,10.30.1.16,rdp,3389,AVISO,78,82,70,soporte,Mesa de Ayuda
+15,srv-ci-01,servidor,Linux,10.40.1.25,jenkins,8080,OK,62,77,54,dev,Equipo Desarrollo
+16,srv-log-01,servidor,Linux,10.10.7.70,rsyslog,514,OK,41,63,86,prod,Equipo Sistemas
+17,srv-cache-01,servidor,Linux,10.10.8.80,redis,6379,OK,53,66,45,prod,Equipo Desarrollo
+18,srv-legacy-01,servidor,Linux,10.10.9.90,ssh,22,ERROR,88,84,89,prod,Equipo Sistemas

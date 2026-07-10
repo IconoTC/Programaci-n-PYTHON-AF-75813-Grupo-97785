@@ -1,0 +1,54 @@
+{
+  "umbrales": {
+    "cpu_aviso": 70,
+    "cpu_critico": 85,
+    "memoria_aviso": 80,
+    "memoria_critico": 90,
+    "disco_aviso": 80,
+    "disco_critico": 90
+  },
+  "estados_validos": [
+    "OK",
+    "AVISO",
+    "ERROR"
+  ],
+  "puertos_esperados": {
+    "nginx": [
+      443,
+      8080
+    ],
+    "postgresql": [
+      5432
+    ],
+    "rsync": [
+      873
+    ],
+    "firewalld": [
+      443
+    ],
+    "grafana": [
+      3000
+    ],
+    "api": [
+      8443
+    ],
+    "dns": [
+      53
+    ],
+    "rdp": [
+      3389
+    ],
+    "jenkins": [
+      8080
+    ],
+    "rsyslog": [
+      514
+    ],
+    "redis": [
+      6379
+    ],
+    "ssh": [
+      22
+    ]
+  }
+}
